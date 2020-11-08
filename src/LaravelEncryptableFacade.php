@@ -1,11 +1,11 @@
 <?php
 
-namespace Venturedrake\LaravelEncryptable;
+namespace VentureDrake\LaravelEncryptable;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Venturedrake\LaravelEncryptable\LaravelEncryptable
+ * @see \VentureDrake\LaravelEncryptable\LaravelEncryptable
  */
 class LaravelEncryptableFacade extends Facade
 {

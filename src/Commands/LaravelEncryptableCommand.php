@@ -1,6 +1,6 @@
 <?php
 
-namespace Venturedrake\LaravelEncryptable\Commands;
+namespace VentureDrake\LaravelEncryptable\Commands;
 
 use Illuminate\Console\Command;
 

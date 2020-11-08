@@ -1,6 +1,6 @@
 <?php
 
-namespace Venturedrake\LaravelEncryptable;
+namespace VentureDrake\LaravelEncryptable;
 
 class LaravelEncryptable
 {

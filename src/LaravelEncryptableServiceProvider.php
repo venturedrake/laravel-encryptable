@@ -1,9 +1,9 @@
 <?php
 
-namespace Venturedrake\LaravelEncryptable;
+namespace VentureDrake\LaravelEncryptable;
 
 use Illuminate\Support\ServiceProvider;
-use Venturedrake\LaravelEncryptable\Commands\LaravelEncryptableCommand;
+use VentureDrake\LaravelEncryptable\Commands\LaravelEncryptableCommand;
 
 class LaravelEncryptableServiceProvider extends ServiceProvider
 {

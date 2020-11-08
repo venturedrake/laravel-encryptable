@@ -50,7 +50,8 @@
                 "Venturedrake\\LaravelEncryptable\\LaravelEncryptableServiceProvider"
             ],
             "aliases": {
-                "LaravelEncryptable": "Venturedrake\\LaravelEncryptable\\LaravelEncryptableFacade"
+                "LaravelEncryptable": "Venturedrake\\LaravelEncryptable\\LaravelEncryptableFacade",
+                "Encryptable": "Venturedrake\\LaravelEncryptable\\Traits\\EncryptableTrait"
             }
         }
     },
