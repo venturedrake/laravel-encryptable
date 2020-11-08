@@ -4,7 +4,7 @@ namespace VentureDrake\LaravelEncryptable\Traits;
 
 use Illuminate\Contracts\Encryption\DecryptException;
 
-trait EncryptableTrait
+trait LaravelEncryptableTrait
 {
     /**
      * If the attribute is in the encryptable array
