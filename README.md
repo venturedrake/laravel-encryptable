@@ -1,8 +1,10 @@
 # Laravel Encryptable
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/venturedrake/laravel-encryptable.svg?style=flat-square)](https://packagist.org/packages/venturedrake/laravel-encryptable)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/venturedrake/laravel-encryptable/run-tests?label=tests)](https://github.com/venturedrake/laravel-encryptable/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/venturedrake/laravel-encryptable.svg?style=flat-square)](https://packagist.org/packages/venturedrake/laravel-encryptable)
+<!--- [![Latest Version on Packagist](https://img.shields.io/packagist/v/venturedrake/laravel-encryptable.svg?style=flat-square)](https://packagist.org/packages/venturedrake/laravel-encryptable) --->
+[![Build Status](https://travis-ci.com/venturedrake/laravel-encryptable.svg?branch=master)](https://travis-ci.com/venturedrake/laravel-encryptable)
+[![StyleCI](https://github.styleci.io/repos/310988638/shield?branch=master)](https://github.styleci.io/repos/310988638?branch=master)
+<!--- [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/venturedrake/laravel-encryptable/run-tests?label=tests)](https://github.com/venturedrake/laravel-encryptable/actions?query=workflow%3Arun-tests+branch%3Amaster) --->
+<!--- [![Total Downloads](https://img.shields.io/packagist/dt/venturedrake/laravel-encryptable.svg?style=flat-square)](https://packagist.org/packages/venturedrake/laravel-encryptable) --->
 
 Automatically encrypt and decrypt database table fields.
 
