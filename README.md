@@ -18,7 +18,7 @@ composer require venturedrake/laravel-encryptable
 
 You can publish the config file with:
 ```bash
-php artisan vendor:publish --provider="Venturedrake\LaravelEncryptable\LaravelEncryptableServiceProvider" --tag="config"
+php artisan vendor:publish --provider="VentureDrake\LaravelEncryptable\LaravelEncryptableServiceProvider" --tag="config"
 ```
 
 ## Usage

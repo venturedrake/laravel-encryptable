@@ -1,6 +1,6 @@
 <?php
 
-namespace Venturedrake\LaravelEncryptable\Database\Factories;
+namespace VentureDrake\LaravelEncryptable\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

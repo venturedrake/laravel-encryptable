@@ -1,10 +1,10 @@
 <?php
 
-namespace Venturedrake\LaravelEncryptable\Tests;
+namespace VentureDrake\LaravelEncryptable\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Venturedrake\LaravelEncryptable\LaravelEncryptableServiceProvider;
+use VentureDrake\LaravelEncryptable\LaravelEncryptableServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -12,9 +12,11 @@ class TestCase extends Orchestra
     {
         parent::setUp();
 
-        Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Venturedrake\\LaravelEncryptable\\Database\\Factories\\'.class_basename($modelName).'Factory'
-        );
+        /*Factory::guessFactoryNamesUsing(
+            function (string $modelName) {
+                return 'VentureDrake\\LaravelEncryptable\\Database\\Factories\\' . class_basename($modelName) . 'Factory';
+            }
+        );*/
     }
 
     protected function getPackageProviders($app)

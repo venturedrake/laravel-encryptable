@@ -26,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Venturedrake\\LaravelEncryptable\\": "src",
-            "Venturedrake\\LaravelEncryptable\\Database\\Factories\\": "database/factories"
+            "VentureDrake\\LaravelEncryptable\\": "src",
+            "VentureDrake\\LaravelEncryptable\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Venturedrake\\LaravelEncryptable\\Tests\\": "tests"
+            "VentureDrake\\LaravelEncryptable\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,11 +47,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Venturedrake\\LaravelEncryptable\\LaravelEncryptableServiceProvider"
+                "VentureDrake\\LaravelEncryptable\\LaravelEncryptableServiceProvider"
             ],
             "aliases": {
-                "LaravelEncryptable": "Venturedrake\\LaravelEncryptable\\LaravelEncryptableFacade",
-                "Encryptable": "Venturedrake\\LaravelEncryptable\\Traits\\EncryptableTrait"
+                "LaravelEncryptable": "VentureDrake\\LaravelEncryptable\\LaravelEncryptableFacade",
+                "Encryptable": "VentureDrake\\LaravelEncryptable\\Traits\\EncryptableTrait"
             }
         }
     },

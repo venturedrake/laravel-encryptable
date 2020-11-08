@@ -1,6 +1,6 @@
 <?php
 
-namespace Venturedrake\LaravelEncryptable\Tests;
+namespace VentureDrake\LaravelEncryptable\Tests;
 
 class ExampleTest extends TestCase
 {
