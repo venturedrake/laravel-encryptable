@@ -6,6 +6,8 @@
 
 Automatically encrypt and decrypt database table fields.
 
+> ⚠️ Warning: This is a pre-release version that is not yet ready for production use.
+
 ## Installation
 
 You can install the package via composer:
