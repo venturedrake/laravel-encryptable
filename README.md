@@ -14,24 +14,49 @@ Automatically encrypt and decrypt database table fields.
 
 You can install the package via composer:
 
-```bash
+``` bash
 composer require venturedrake/laravel-encryptable
 ```
 
 You can publish the config file with:
-```bash
+``` bash
 php artisan vendor:publish --provider="VentureDrake\LaravelEncryptable\LaravelEncryptableServiceProvider" --tag="config"
 ```
 
 ## Usage
 
+Add the trait to your model and your encryptable rules.
 ``` php
-TBC
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+use VentureDrake\LaravelEncryptable\Traits\LaravelEncryptableTrait;
+
+class Person extends Model
+{
+    use LaravelEncryptableTrait;
+    
+    /**
+	 * Laravel Encryptable Rules
+	 *
+	 * @var array
+	 */
+    protected $encryptable = [
+        'first_name',
+        'last_name',
+    ];
+    
+...  
+}
 ```
+
+Now when you store, update or read from the model the first_name and last_name fields will automatically be encrypted and decrypted.
 
 ## Testing
 
-``` bash
+```bash
 composer test
 ```
 
