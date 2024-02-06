@@ -17,7 +17,8 @@ trait LaravelEncryptableTrait
     public function getAttribute($key)
     {
         $value = parent::getAttribute($key);
-        if (in_array($key, $this->encryptable) && trim($value) !== '') {
+        
+        if (config('laravel-encryptable.enabled') && in_array($key, $this->encryptable) && trim($value) !== '') {
             $value = $this->decryptField($value);
         }
 
@@ -33,7 +34,7 @@ trait LaravelEncryptableTrait
      */
     public function setAttribute($key, $value)
     {
-        if (in_array($key, $this->encryptable) && $value) {
+        if (config('laravel-encryptable.enabled') && in_array($key, $this->encryptable) && $value) {
             $value = encrypt($value);
         }
 
