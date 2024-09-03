@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed --->
 
+## 0.1.5 - 2024-09-03
+### Added
+- Laravel 11 support
+
 ## 0.1.4 - 2024-02-06
 ### Added
 - Config setting to enable/disable encryption

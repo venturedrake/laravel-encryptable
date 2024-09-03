@@ -2,13 +2,10 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/venturedrake/laravel-encryptable.svg?style=flat-square)](https://packagist.org/packages/venturedrake/laravel-encryptable)
 [![Build Status](https://travis-ci.com/venturedrake/laravel-encryptable.svg?branch=master)](https://travis-ci.com/venturedrake/laravel-encryptable)
-[![StyleCI](https://github.styleci.io/repos/310988638/shield?branch=master)](https://github.styleci.io/repos/310988638?branch=master)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3e78594a3733454e9ebed819debed985)](https://www.codacy.com/gh/venturedrake/laravel-encryptable/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=venturedrake/laravel-encryptable&amp;utm_campaign=Badge_Grade)
 [![Total Downloads](https://img.shields.io/packagist/dt/venturedrake/laravel-encryptable.svg?style=flat-square)](https://packagist.org/packages/venturedrake/laravel-encryptable)
 
 Automatically encrypt and decrypt database table fields.
-
-> ⚠️ Warning: This is a pre-release version that is not yet ready for production use.
 
 ## Installation
 
